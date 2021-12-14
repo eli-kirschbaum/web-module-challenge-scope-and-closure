@@ -61,6 +61,9 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+
+  - closure is when a function need to access a variable that isnt defined strictly within its block, so it reaches the next level up to see if the variable is defined there and then uses that
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,8 +85,14 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  - the closure is in the console.log for the name variable, i can tell because name is a variable that is only found as a parameter in the function outside where it is needed\
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
 c. What is the lexical scope of `newRoll`? 
+  
+  - it is block scoped
 
 
 ### Task 3 - Stretch Goals

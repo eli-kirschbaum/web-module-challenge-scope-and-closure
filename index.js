@@ -163,7 +163,7 @@ function scoreboard(getinningscorecb, inningcb, inningtotal) {
       finalArray.push(`This game will require extra innings: Away ${getinningscorecb(inningcb).Away} - Home ${getinningscorecb(inningcb).Home}`)
     }
   }
-  return finalArray
+  return finalArray;
 }
 
 
